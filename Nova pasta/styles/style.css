@@ -1,0 +1,39 @@
+body {
+    background-color: #131313;
+    font-family: "Poppins", sans-serif;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding-top: 200px; /* Ajusta a posição do título */
+    font-size: 50px;
+}
+
+#text-container {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    color: white;
+    text-align: center;
+    margin-top: 20px; /* Espaço entre título e texto */
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center; /* Centraliza os ícones horizontalmente */
+    gap: 15px; /* Espaçamento entre os ícones */
+    margin-top: 20px; /* Espaço abaixo do texto */
+}
+
+a {
+    color: white;
+    font-size: 35px; /* Tamanho dos ícones */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    transition: transform 0.3s ease-in-out; /* Animação suave */
+}
+
+a:hover {
+    transform: scale(1.2); /* Efeito de zoom ao passar o cursor */
+}
